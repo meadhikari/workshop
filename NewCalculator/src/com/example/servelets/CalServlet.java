@@ -49,7 +49,7 @@ public class CalServlet extends HttpServlet {
 		if(useraction.equals("div"))
 			k=Calculator.div(i, j);
 		
-		response.getWriter().println("Result is: "+ k);;
+		response.getWriter().println(k);;
 	}
 
 }
